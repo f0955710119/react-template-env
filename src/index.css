@@ -9,12 +9,15 @@ html {
 }
 
 body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   color: #333;
   font-size: 1.6rem;
   font-family: 'Lato';
   font-weight: 400;
-
-  margin-bottom: 4rem;
 }
 
 ul {
@@ -25,4 +28,8 @@ a:link,
 a:visited {
   text-decoration: none;
   color: #333;
+}
+
+h1 {
+  display: inline-block;
 }
